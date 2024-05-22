@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css" />
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" />
+  <link href="./css/style.css" rel="stylesheet">
+  <title>Live-Weather</title>
+</head>
+
+<body>
+  <video autoplay muted playsinline loop poster class="w-100">
+    <source src="background.mp4" />
+</video>
+  <div class="row">
+    <nav class="navbar navbar-dark bg-dark shadow-sm p-1">
+      <div class="container-fluid">
+        <a class="navbar-brand">LIVE WEATHER APP</a>
+        <form class="d-flex input-response" id="form">
+          <input class="form-control me-2" id="inputBox" type="search"  name="CityName" placeholder="City Search" aria-label="Search">
+          <button class="btn_btn_submit btn-padding " type="submit">Search</button>
+        </form>
+      </div>
+    </nav>
+  </div>
+  <div class="container mt-5">
+    <div class="row justify-content-center gap-2" id="displayBox">
+      </div>
+    </div>
+  </div>
+</body>
+<script src="./js/script.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.min.js"></script>
+
+</html>

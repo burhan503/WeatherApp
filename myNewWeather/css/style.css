@@ -1,0 +1,36 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+.btn_btn_submit{
+  padding: 5px;
+  width: 80px;
+  text-align: center;
+  margin: 1px;
+  border-radius: 5px;
+  background-color: goldenrod;
+
+}
+@media screen and (max-width: 576px) {
+    .navbar-brand {
+      font-size: 1em;
+    }
+    .nav-link {
+      font-size: 0.9em;
+    }
+    .input-response{
+        height: 30px;
+    }
+    .btn-padding{
+        padding-bottom: 0.3em;
+
+    }
+  }
+  video {
+    position: fixed;
+    z-index: -9999;
+    object-fit: cover;
+    background-color: rgba(0, 0, 255, 0.8); /* Blue with opacity */
+    backdrop-filter: blur(10px); /* Blur effect */
+    -webkit-backdrop-filter: blur(10px); /* Safari support */
+}
